@@ -6,7 +6,7 @@ and picking treasure some other functionalities are added such as picking arrows
 arrows by determining direction and distance. A controller is implemented using command design 
 pattern wherein it validates users input and passes to the model Dungeon.
 
-#List of features : 
+# List of features : 
 
 1. Dungeon is created by command line arguments in a construtor.
 2. Arrows, Treasure and Monster are added to the dungeon.
