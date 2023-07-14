@@ -1,0 +1,119 @@
+wrapping or non wrap
+
+rows
+
+columns
+
+interconnectivity
+
+potential paths
+
+make a single set of each coordinate first
+
+pick random path from list paths and make sets of those coordinates
+
+at the same time delete those from paths
+
+once this is over, take interconnectivity and assign paths from leftover
+
+
+setofedges initially each node is a set in itself
+
+choose random edges from potential paths and make them on edge
+
+edges may be repeated, but instead make another LEFTOVER set which consists of these edges
+
+representation of the dungeon before assiging cave or tunnel
+
+create dungeon in the construtor itself if possible
+
+use toString to represent it
+
+after joining, make each node as a tunnel if they have tone entry and one exit
+
+add treasure randomly to caves
+
+player start location
+
+decsription of treasure collected by player
+
+description of players location, moves and treasure in the cave
+
+
+the path between the start and end cave must be greater than 5 (this should be the shortest path)
+
+tunnel can be start or end location
+
+
+
+test cases
+
+check for row, column
+
+check for row and column for minimum distance (i.e. if row and column < 3 then the whole dungeon is invalid)
+
+tunnel has 2 entrances, cave has 1,3,4
+
+test dungeon for exactly one path (interconnectivity 0)
+
+interconnecticity increase, path increase
+
+wrapping, non-wrapping of dungeon
+
+start cave and end cave shortest path
+
+treasure added to 20% of caves
+
+cave has more than one treasure
+
+player created after dungeon created
+
+player to start from start
+
+describe player after moving
+
+describe location after moving from one cave to other
+
+reach destination 
+
+player to pick treasure and its updated
+
+player at start do not have anything
+
+
+	
+
+
+
+Part 2
+
+atleast one monster in end cave, specified on command line, none at start cave
+
+monster only occupy caves
+
+if cave has 1 monster and player 2 position away from that cave, less pungent
+if cave has
+	1 monster 1 position away 
+	2 or more monster 2 position away
+	
+
+Player has arrows
+3 arrows in start and then can find in cave or tunnel 
+
+distance - number of caves to travel
+direction - arrow can enter into tunnel and exit from anywhere
+in cave they can only leave in opposite direction
+
+distance must be exact
+
+monster is dead if 2 hits by player,
+if only hit by 1, player has 50% chance or escaping
+
+
+
+test cases
+
+number of monsters less than cave
+
+monsters are not present in tunnel
+
